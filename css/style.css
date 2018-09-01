@@ -71,7 +71,7 @@ h5 a:hover   {color:black; background-color:transparent; text-decoration:underli
 .white p{
     font-family: 'Inconsolata';
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.6px;
@@ -157,7 +157,7 @@ h10 mark{
 p{
 	font-family: "Inconsolata";
     color: #1a1a1a;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.6px;
@@ -167,7 +167,7 @@ p{
 .video-spiegazione p{
     font-family: 'Inconsolata', monospace;
     color: #1a1a1a;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
     text-align: center;
     line-height: 18px;
