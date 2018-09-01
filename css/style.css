@@ -1,0 +1,1343 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+html, body {
+    position:relative;
+  max-width: 101%;
+  overflow-x: hidden;
+    margin:0px;
+    
+}
+
+.spiegazione a:link    {color:black; background-color:transparent; text-decoration:underline}
+.spiegazione a:visited {color:black; background-color:transparent; text-decoration:underline}
+.spiegazione a:hover   {color:black; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+/*COPERTINA COPERTINA COPERTINA COPERTINA COPERTINA*/
+
+
+.copertina{
+    background-color: #1a1a1a;
+    width: 100%;
+    padding-right:0px;
+    margin:0px;
+}
+
+.copertina h1 {
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;    
+    margin-top:12%;
+    line-height: 150px;
+}
+
+.copertina mark {
+    background-color: white;
+    color: 1a1a1a;
+    padding: 0px; !important
+    
+}
+
+
+    
+.copertina p {
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 38px;  
+    margin-top: 22%;
+    text-transform: none;
+}
+
+.copertina img {
+    margin-top: 25%;
+    margin-bottom: 10%
+   
+}
+
+ li{
+     font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 13px;
+     letter-spacing:2px;
+}
+
+li:hover{
+     color: white;
+    text-decoration: underline;
+}
+
+
+/* SPIEGAZIONE PROGETTO */
+
+
+.spiegazione{
+    background-color: #f4f3ef;
+}
+
+.spiegazione p{    
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 20px; 
+    letter-spacing: 1px;
+}
+
+
+.religious{
+   background-color: #69e2c8;
+    color: black;
+    font-weight: normal;
+    padding: 2.5px; !important  
+}
+
+.political{
+   background-color: #db3400;
+    color: black;
+    font-weight: bold;
+    opacity: 0.85;
+    padding: 2.5px; !important 
+}
+
+.ethnic{
+   background-color: #ffe19f;
+    color: black;
+    font-weight: bold;
+    padding: 2.5px; !important 
+}
+
+
+
+/* VIDEO SPIEGAZIONE */
+
+.video-spiegazione{
+    margin-top: 50px; 
+    margin-bottom: 90px
+}
+
+#gif-spiegazione{
+    padding-right: 3.5%;
+    padding-top:50px;
+    margin-bottom: 0px;
+}
+.video-spiegazione h3{
+  font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height:20px;  
+    text-align:center;
+}
+
+.video-spiegazione h4{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.video-spiegazione h4 mark{ 
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+.video-spiegazione p{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 11.5px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 16px;
+    
+    letter-spacing: 0.2px
+}
+
+
+
+/* CARATTERISTICHE TITOLI SEZIONI */
+
+#box{
+    border-style: solid;
+    border-width: 3px;
+    padding:30px;
+}
+
+#box_small{
+   border-style: solid;
+    border-width: 3px;
+    padding:20px; 
+}
+
+
+.container section{
+    width: 100%;
+}
+                                       /* numeri grandi */
+.section h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height:40px;
+    margin:0px;
+}
+
+/*
+.section h1 mark{
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+    padding: 2px; !important 
+}
+*/
+                                        /*sottolineati neri */
+.section h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height:40px;
+    margin:0px;
+}
+
+.section h2 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important 
+}
+
+                                    /* sottolineati grigi  */
+.section h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height:28px;
+    
+}
+
+.section h3 mark{
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+    padding: 2px; !important 
+}
+
+                                        /* sottolineati neri piccoli */
+
+
+.section h4{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+   
+    line-height: 20px;
+    
+}
+
+/*
+.section h4 mark{ 
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+    padding: 4px; !important
+}
+*/
+
+.section h5{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 12px; 
+    text-transform: uppercase;
+}
+
+.section p{
+    font-family: "Inconsolata";
+    color: #1a1a1a;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 16px;
+    margin: 0;
+    letter-spacing: 0.6px;
+}
+
+.section a:link    {color:black; background-color:transparent; text-decoration:underline}
+.section a:visited {color:black; background-color:transparent; text-decoration:underline}
+.section a:hover   {color:black; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+#europa{
+    text-align: right;   
+    margin-top: 80px;
+}
+
+
+.infografica{
+    margin-bottom: 40px;
+}
+
+
+/*ID */
+
+#info-mappa{
+    /*margin-bottom: 40px; */
+}
+
+
+
+
+.mappa{
+    padding: 0px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+                                        /* numeri grandi */
+
+                                        /*sottolineati neri */
+.mappa h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height:60px;
+    position: absolute;
+}
+
+.mappa h2 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important 
+}
+
+.mappa h5{
+    font-family: 'Inconsolata', monospace;
+    color: #1a1a1a;
+    font-size: 12px; 
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 160%; 
+}
+
+.mappa a:link    {color:black; background-color:transparent; text-decoration:underline}
+.mappa a:visited {color:black; background-color:transparent; text-decoration:underline}
+.mappa a:hover   {color:black; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+#alluvial-gruppi{
+    text-align: right;
+}
+
+#legenda{
+    margin-top: 2%;
+    padding-left: 5%;
+}
+
+
+
+/* CONTAINER SOTTOSEZIONI NERI */
+
+.container-black{
+    background-color: 1a1a1a;
+    padding: 10px;
+    
+}
+                                    /* titolo */
+.container-black h2{
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    letter-spacing:6px;
+    font-weight: 800;
+    line-height: 60px;    
+    text-transform: uppercase;
+    margin:0px;
+}
+                                    /*corpo */
+.container-black p{ 
+    font-family: 'Inconsolata';
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+/* CONTAINER-MEDIA */
+
+.container-media{
+    background-color: 1a1a1a;
+    padding-top: 60px;
+    
+}
+                                        /* titolo */
+.container-media h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height:44px;
+}
+
+.container-media h1 mark{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 2px; !important 
+}
+
+                                        /* titolo conclusione */
+.container-media h2{
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    
+    line-height: 36px;    
+    text-transform: uppercase;
+    text-align: right;
+}
+                                        /* news */
+.container-media h3{
+    font-family: 'Oswald', sans-serif;
+    color: #f2f2f2;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: bolder;;
+    text-transform: uppercase;
+    line-height:46px;
+    
+}
+
+.container-media h3 mark{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important 
+}
+                                    /* lexis nexis */
+
+.container-media h4{
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;;
+    text-transform: uppercase;
+    line-height: 29px;
+}
+
+.container-media h4 mark{    
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    padding: 2px; !important
+}
+
+.container-media h5{
+    font-family: 'Inconsolata', monospace;
+    color: #f2f2f2;
+    font-size: 12px; 
+    text-transform: uppercase;
+    position: absolute;
+    
+}
+                                            /*attacks */
+.container-media h6{
+    font-family: 'Oswald', sans-serif;
+    color: #f2f2f2;
+    text-align: right;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height:46px;
+    letter-spacing: 0.2px;
+    
+}
+
+.container-media p{
+    font-family: 'Inconsolata';
+    color: #FFFFFF;
+    font-size: 11.5px;
+    font-weight: 400;
+    line-height: 18px;   
+    letter-spacing: 1px
+}
+
+.container-media a:link    {color:#f2f2f2; background-color:transparent; text-decoration:underline}
+.container-media a:visited {color:#f2f2f2; background-color:transparent; text-decoration:underline}
+.container-media a:hover   {color:#f2f2f2; background-color:transparent; text-decoration:underline; font-weight: bold}
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #f2f2f2;
+    padding: 3%;
+}
+
+.footer img{
+    padding-top: 8%
+}
+
+.footer h4{
+    font-family: "inconsolata";
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    text-transform:uppercase;
+    line-height: 32px;
+    text-decoration: underline;
+}
+
+.footer h4 mark{    
+    background-color: #1A1A1A;
+    color: #f2f2f2;
+    padding: 2px; !important
+}
+
+.footer p{
+    font-family: "Inconsolata";
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 20px;
+    margin: 0;
+}
+
+.row-trendline{
+    margin-bottom: 40px;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GRAPH 01+02 BUMPCHARTS */
+
+	
+.G01assi{
+    fill:#f2f2f2;
+}
+.G01text{
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:12px;
+}
+.G01assiverticali{
+    opacity:0.5;
+    fill:none;
+    stroke:#E6E6E6;
+    stroke-miterlimit:10;
+}
+.G01assiverticali2{
+    opacity:0.3;
+    fill:none;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+.G01flusso_religioso{
+    opacity:0.9;
+    fill:#69E2C8;
+}
+.G01flusso_etnico{
+    opacity:0.9;
+    fill:#FFE19F;
+}
+.G01flusso_politico{
+    opacity:0.9;
+    fill:#DB3400;
+}
+
+
+.st0 {
+    fill:none;
+}
+
+.st1 {
+    fill:none;stroke:#1D1D1B;stroke-width:0.3;stroke-linejoin:round;
+}
+
+.st2 {
+    clip-path:url(#XMLID_2_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.st3 {
+    clip-path:url(#XMLID_3_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.st4 {
+    clip-path:url(#XMLID_4_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.st5{
+    clip-path:url(#XMLID_5_);fill:none;stroke:#000000;stroke-width:0.4;stroke-miterlimit:10;
+}
+
+.G02mappa{
+    fill:#F2F2F2;
+}
+
+.G02confini {
+    fill:#FFFFFF;
+}
+
+.G02linee {
+    fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+}
+
+.G02linee.off {
+    opacity: .1;
+}
+	
+.G02text {
+    font-family:'Inconsolata-Regular';
+    font-size:14px;
+    fill:#1A1A1A;
+}
+
+.G02kill15 {
+    fill:url(#Linee_diagonali);stroke:#1A1A1A;stroke-miterlimit:10;
+}
+
+.G02kill15.off {
+    opacity:0.1
+}
+	
+.G02kill05 {
+    fill:url(#Nuovo_pattern_4);stroke:#1A1A1A;stroke-miterlimit:10;
+}
+    
+.G02kill05.off {
+    opacity: 0.1;
+}
+
+
+
+/* GRAPH 04 TRENDLINES */
+.G04text{
+    font-family:'Inconsolata-Regular';
+    font-size:12px;
+    fill:#1A1A1A;
+}
+.G04assi{
+    fill:#f2f2f2;
+}
+.G04divisori{
+    opacity:0.5;ù
+    fill:none;
+    stroke:#E6E6E6;
+    stroke-miterlimit:10;
+}
+.G04trend_religioso{
+    fill:#69E2C8;
+}
+.G04trend_politico{
+    fill:#DB3400;
+}
+.G04trend_etnico{
+    fill:#FFE19F;
+}
+
+
+/* 05 PALLOZZI */
+.G05pallozzo_etnico{
+    fill:#FFE19F;
+    opacity:0.7
+}
+.G05pallozzo_politico{
+    fill:#DB3400;
+    opacity:0.7
+}
+.G05pallozzo_religioso{
+    fill:#69E2C8;
+    opacity:0.7
+}
+.G05text{
+    font-family:'Inconsolata-Regular';
+    font-size:14px;
+    fill:#1A1A1A;
+}
+
+/* GRAPH 04 PALLUOZZI */
+
+#G05pallozzi_rel{
+    fill:#69E2C8;
+    }
+    
+#G05pallozzi_etn{
+    fill:#FFE19F;
+}
+    
+#G05pallozzi_pol{
+    fill:#DB3400;
+}
+    
+.G05text_grp {
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:14px;
+}
+    
+.G05text_vict {
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:31px;     
+}
+    
+.G05text_numb {
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:67.5676px;     
+}
+
+.G05targa {
+    opacity: 0;
+    
+}
+
+.G05targa.on {
+    opacity: 1
+}
+
+.G05pallozziNOJS{opacity: .2}
+
+.G05pallozzi{
+    opacity: .2;
+    transition: opacity 0.7s ease;
+}
+
+.G05pallozzi.on{opacity: 1}
+
+
+
+
+
+/* GRAPH 06 ALLUVIAL GROUPS */
+
+.G06black {
+    fill:#1A1A1A
+}
+.G06gruppi{
+    font-size:14px;
+    fill:#1A1A1A;
+    font-family:'Inconsolata-Regular';
+    cursor: pointer;
+    font-weight: bold;
+}
+.G06gruppi.idle {
+    fill:#f2f2f2;
+    font-weight: 100;
+}	
+.G06grouprect {
+    opacity: 0
+}
+.G06grouprect.G06recton {
+    opacity:1;
+    fill:#1a1a1a
+}
+.G06flusso_religioso{
+    fill:#69E2C8
+}
+.G06flusso_politico{
+    fill:#DB3400
+}
+.G06flusso_etnico{
+    fill:#FFE19F
+}	
+.G06variabili{
+    font-size:12px;
+    fill:#1A1A1A;
+    font-family:'Inconsolata-Regular';
+}               
+.G06legenda{
+    fill:#FFFFFF;
+    font-family:'Inconsolata-Regular';
+    font-size:12px;
+}
+.G06flussi {
+    opacity: 0.1;
+    transition: opacity 0.3s ease;
+}
+.G06on {
+    opacity: 0.7
+}
+
+
+/* GRAPH 07 SCATTER PLOT */	
+.G07texture{
+    opacity:0.5;
+    fill:url(#_x31_0_dpi_10_x25_);
+}
+.G07text{
+    font-family:'Montserrat-Bold';
+    font-size:14px;
+}
+.G07rett{
+    fill:#FFFFFF;
+    stroke:#000000;
+    stroke-width:6;
+    stroke-miterlimit:10;
+}
+.G07etnicoNOJS{
+    fill:#FFE19F;
+    fill-opacity:0.9;
+}
+.G07politicoNOJS{
+    fill:#DB3400;
+    fill-opacity:0.9;
+}
+.G07religiosoNOJS{
+    fill:#69E2C8;
+    fill-opacity:0.9;
+}
+.G07religioso{
+    fill:#69E2C8;
+    fill-opacity:0.9;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:10;
+}
+.G07politico{
+    fill:#DB3400;
+    fill-opacity:0.9;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:10;
+}
+.G07etnico{
+    fill:#FFE19F;
+    fill-opacity:0.9;
+    stroke:#000000;
+    stroke-width:4;
+    stroke-miterlimit:10;
+}
+.G07targa{
+    display:none;
+}
+
+/* LEGENDA SCATTER */
+
+#legenda-scatter{
+   max-width: 14%;
+    margin-top: 46px;
+}
+
+.G07LGblack {
+    fill:#1A1A1A;
+}    
+.G07LGtext {
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:14px;
+}
+.G07griglia_vert{
+    opacity:0.5;
+    fill:none;
+    stroke:#F2F2F2;
+    stroke-width:0.9979;
+    stroke-miterlimit:10;
+}	
+.G07griglia_orizz{
+    opacity:0.5;
+    fill:none;
+    stroke:#F2F2F2;
+    stroke-miterlimit:10;
+}	
+.G07pallozzo_religioso{
+    fill:#69E2C8;
+    fill-opacity:0.9;
+}	
+.G07pallozzo_politico{
+    fill:#DB3400;
+    fill-opacity:0.9;
+}	
+.G07pallozzo_etnico{
+    fill:#FFE19F;
+    fill-opacity:0.9;
+}	
+.G07assi{
+    fill:#f2f2f2;
+}	
+.G07text{
+    font-family:'Inconsolata-Regular';
+    font-size:14px;
+}
+
+
+/* 5 most terrible */
+
+.GB_num {
+   font-family:'Inconsolata-Regular';
+   font-size:67.5676px;
+}
+
+.GB_victim {
+    font-family: 'Inconsolata-Regular';
+    font-size: 31px;
+}
+
+.GB_other {
+    font-family:'Inconsolata-Regular';
+    font-size:14px;
+}
+
+
+/* G8 ALLLUVIAL VICTIMS */
+
+
+.G08gruppi{
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.G08gruppi.idle {
+    fill:#f2f2f2;
+    font-weight: 100;
+}       
+.G08text{
+    font-family:'Inconsolata-Regular';
+    fill:#1A1A1A;
+    font-size:12px;
+}            
+.G08text2{
+    fill:#1a1a1a;
+    font-family:'Inconsolata-Regular';
+    font-size:12px;
+}
+.G08flussi {
+    opacity: 0.1;
+    transition: opacity 0.3s ease;}
+.G08on {
+    opacity: 0.7
+}
+	
+.G08flusso_religioso{
+    fill:#69E2C8;
+}
+.G08flusso_politico{
+    fill:#DB3400;
+}
+.G08flusso_etnico{
+    fill:#FFE19F;
+}
+.G08black{
+    fill:#1A1A1A;
+}
+.G08isto_religioso{
+    opacity:0.7;
+    fill:#69E2C8;
+}
+.G08isto_politico{
+    opacity:0.7;
+    fill:#DB3400;
+}
+.G08isto_etnico{
+    opacity:0.7;
+    fill:#FFE19F;
+}
+.G8grouprect {
+    fill:#1A1A1A;
+    opacity:0}
+
+.G8recton {
+    fill:#1A1A1A;
+    opacity: 1;}
+
+
+
+/* G10 MEDIA1 DEF2 */
+
+.G10assi {
+    fill:#F2F2F2;
+}
+
+.G10linee{
+        opacity:0.1;fill:none;stroke:#F1F1F1;stroke-miterlimit:10;
+}
+    
+.G10var1{
+        fill:#F1F1F1;
+        font-family:'Inconsolata-Regular';
+        font-size:14px;
+}
+    
+.G10var2 {
+        fill:#F1F1F1;
+        font-family:'Inconsolata-Regular';
+        font-size:12px;    
+}
+    
+.G10gruppi {
+        fill:#F1F1F1;
+        font-family:'Inconsolata-Regular';
+        font-size:14px;
+        font-weight: bold;
+        cursor: pointer
+}
+
+.G10gruppi.on {
+    fill:#1a1a1a;
+    font-weight: normal;
+}
+    
+.G10grouprect {
+        fill: #f2f2f2;
+        opacity: 0;
+}
+
+.G10grouprect.on{
+    fill:#f1f1f1;
+    opacity: 1;
+}
+
+.G10trend {
+    opacity:0;
+    transition: opacity 0.25s ease;
+}
+
+.G10trend.on {opacity: 0.8}
+    
+.G10religioso {
+        fill:#6EE0C7;
+}
+    
+	.G10politico {
+        fill:#D83618;
+}
+    
+	.G10etnico {
+        fill:#FDDFA2;
+}
+
+
+
+/* G11 MEDIA2 DEF */
+
+
+.G11religioso{fill:#69E2C8;}
+	.G11politico{fill:#DB3400;}
+	.G11etnico{fill:#FFE19F;}
+	
+	.G11text{font-family:'Inconsolata-Regular';
+         fill:#F2F2F2;
+         font-size:12px;
+         }
+
+
+
+
+
+
+/* -------------------------------- 
+
+1. Auto-Hiding Navigation - Simple
+
+-------------------------------- */
+.cd-auto-hide-header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #1a1a1a;
+  opacity:1;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+text-align: center;
+    border-style: none;
+  border-color:white;
+    
+}
+.cd-auto-hide-header::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.cd-auto-hide-header.is-hidden {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+@media only screen and (min-width: 1024px) {
+  .cd-auto-hide-header {
+    height: 55px;
+  }
+}
+
+
+.cd-auto-hide-header .logo,
+.cd-auto-hide-header .nav-trigger {
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+   
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+
+
+.cd-auto-hide-header .nav-trigger {
+  /* vertically align its content */
+  display: table;
+  height: 100%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: aqua;
+  font-weight: bold;
+  right: 0;
+    
+/*  border-left: 1px solid #f2f2f2;*/
+}
+.cd-auto-hide-header .nav-trigger span {
+  /* vertically align inside parent element */
+  display: table-cell;
+  vertical-align: middle;
+  padding-top:4px;
+}
+.cd-auto-hide-header .nav-trigger em, .cd-auto-hide-header .nav-trigger em::after, .cd-auto-hide-header .nav-trigger em::before {
+  /* this is the menu icon */
+  display: block;
+  position: relative;
+  height: 2px;
+  width: 22px;
+  
+  
+  background-color: #25283D;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.cd-auto-hide-header .nav-trigger em {
+  /* this is the menu central line */
+  margin: 6px auto 14px;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+}
+.cd-auto-hide-header .nav-trigger em::before, .cd-auto-hide-header .nav-trigger em::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+.cd-auto-hide-header .nav-trigger em::before {
+  /* this is the menu icon top line */
+  -webkit-transform: translateY(-6px);
+      -ms-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+.cd-auto-hide-header .nav-trigger em::after {
+  /* this is the menu icon bottom line */
+  -webkit-transform: translateY(6px);
+      -ms-transform: translateY(6px);
+          transform: translateY(6px);
+}
+@media only screen and (min-width: 1024px) {
+  .cd-auto-hide-header .nav-trigger {
+    display: none;
+  }
+}
+
+.cd-auto-hide-header.nav-open .nav-trigger em {
+  /* transform menu icon into a 'X' icon */
+  background-color: rgba(255, 255, 255, 0);
+}
+.cd-auto-hide-header.nav-open .nav-trigger em::before {
+  /* rotate top line */
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.cd-auto-hide-header.nav-open .nav-trigger em::after {
+  /* rotate bottom line */
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.cd-primary-nav {
+  display: inline-block;
+  
+  width: 100%;
+  padding: 15px;
+ list-style: none;
+  border-style: none;
+  border-color:white;
+text-transform: uppercase;
+}
+.cd-primary-nav > ul {
+  position: absolute;
+ text-align: center;
+  z-index: 2;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: #0a0e2d;
+  display: none;
+  border-style: none;
+  border-color:white;
+  list-style: none;
+margin:0px;
+    padding:0px;
+}
+
+.cd-primary-nav > ul li a {
+  /* target primary-nav links */
+  width: 100%;
+  height: 13px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin:0px;
+  text-align:center;
+  border-style: none;
+  border-color:white;
+}
+
+.cd-primary-nav > ul a {
+  /* target primary-nav links */
+  display: block;
+  width: 100%; 
+  height: 13px;
+  line-height: 15px;
+  border-style: none;
+  border-color:white;
+  padding: 0px;
+  margin:0px;
+  color: inherit;
+  font-size: 13px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .cd-primary-nav {
+    /* vertically align its content */
+    display: table;
+      border-style: none;
+  border-color:white;
+  }
+  .cd-primary-nav > ul {
+    /* vertically align inside parent element */
+    display: table-cell;
+    vertical-align: middle;
+    /* reset mobile style */
+    position: relative;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+     border-style: none;
+  border-color:white;
+  }
+    
+  .cd-primary-nav > ul::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  .cd-primary-nav > ul li {
+    display: inline-block;
+    float: none;
+    border-style: none;
+    border-color:white; 
+    margin-right: 1.5em;
+  }
+  .cd-primary-nav > ul li:last-of-type {
+    margin-right: 0;
+  }
+  .cd-primary-nav > ul a {
+    /* reset mobile style */
+    height: auto;
+    line-height: normal;
+    padding: 0;
+    border: none;
+  }
+}
+
+.nav-open .cd-primary-nav ul,
+.cd-primary-nav ul:target {
+  /* 
+  	show primary nav - mobile only 
+  	:target is used to show navigation on no-js devices
+  */
+  display: block;
+}
+@media only screen and (min-width: 1024px) {
+  .nav-open .cd-primary-nav ul,
+  .cd-primary-nav ul:target {
+    display: table-cell;
+   
+  }
+}
+
+
+/* -------------------------------- 
+
+Main content
+
+-------------------------------- */
+.cd-main-content {
+  padding: 50px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
