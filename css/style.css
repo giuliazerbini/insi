@@ -207,6 +207,7 @@ p{
 .container-navbar{
     padding: 8px;
     background-color: #1a1a1a;
+    height: 50px;
 }
 
 .navbar-custom {
@@ -215,8 +216,7 @@ p{
     border: none;
     font-family: "inconsolata";
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 15px;
     top: 0;
     -webkit-transition: top 0.5s ease-in-out;
     transition: top 0.5s ease-in-out;
@@ -234,7 +234,7 @@ top:-110px;
                                                   /* dispositivo piccolo */
 .navbar-toggle {
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: "inconsolata";
   font-weight: normal;
   font-size: 18px;
 
@@ -243,14 +243,17 @@ top:-110px;
 .navbar-custom li a {
     margin: 0 30px;
     color: white;
+    padding: 6px;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 .navbar-custom .nav li.active a {
   color: white;
   outline: none;
   background-color: transparent;
-  border-bottom: 3px solid;
-  height:43px !important;
+  border-bottom: 1.4px solid;
+  height:30px !important;
 
 
 }
@@ -259,8 +262,8 @@ top:-110px;
   color: white;
   outline: none;
   background-color: transparent;
-  border-bottom: 3px solid;
-  height:43px !important;
+  border-bottom: 1.4px solid;
+  height:30px !important;
 
 }
 
