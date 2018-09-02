@@ -18,7 +18,6 @@ $(window).scroll(function(event){
 // blocca barra versione mobile
 console.log($(window).scrollTop())
     if ($('.navbar-collapse')) {
-        console.log('here')
         $(window).scroll(function(event){
         var top = $(this).scrollTop();
             if (top < 10) {
@@ -32,9 +31,7 @@ console.log($(window).scrollTop())
         menuSmall.toggleClass('open');
         if (menuSmall.hasClass("open")) {
             body.style.overflow = 'hidden';
-            console.log('open menu')
         } else {
-            console.log('close menu') 
             body.style.overflow = 'visible';
         }
     }
