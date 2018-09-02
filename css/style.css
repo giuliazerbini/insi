@@ -1107,6 +1107,14 @@ top:-110px;
     padding: 0px 0;
     letter-spacing: 1px;
   }
+  h4{
+        text-align: left;
+        margin-bottom: 5px;
+    }
+  .row-trendline{
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
 }
 @media (max-width: 415px) {
   .rotateDevice {
