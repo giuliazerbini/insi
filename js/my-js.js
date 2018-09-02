@@ -1,13 +1,8 @@
-
-
-
 $('[data-spy="scroll"]').each(function () {
   var $spy = $(this).scrollspy('refresh')
 })
 
-
-//Navbar
-	
+//Navbar	
 $(window).scroll(function(event){
     var top = $(this).scrollTop();
 		if (top >= 10) {
@@ -18,7 +13,31 @@ $(window).scroll(function(event){
                 $('nav').removeClass("nav-down").addClass("nav-up");
             }
 
-	});
+    });
+
+// blocca barra versione mobile
+console.log($(window).scrollTop())
+    if ($('.navbar-collapse')) {
+        console.log('here')
+        $(window).scroll(function(event){
+        var top = $(this).scrollTop();
+            if (top < 10) {
+                $('nav').removeClass("nav-up").addClass("nav-down");
+            }
+    });
+    }
+    var body = document.querySelector('html');
+    var menuSmall = $('#navbar-spy');
+    function openMenu() {
+        menuSmall.toggleClass('open');
+        if (menuSmall.hasClass("open")) {
+            body.style.overflow = 'hidden';
+            console.log('open menu')
+        } else {
+            console.log('close menu') 
+            body.style.overflow = 'visible';
+        }
+    }
 
 // scroll
 $(document).ready(function() {
@@ -35,7 +54,7 @@ $(document).ready(function() {
                 }, 700);
             }
             return false;
-        }
+        };
     });
 });
 
@@ -453,8 +472,6 @@ $("#btn10ltte").click(function(){
         
 });
 
-
-/* CONTATOREEE */
 
 
 

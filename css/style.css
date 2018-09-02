@@ -239,18 +239,10 @@ top:-110px;
 }
 
 .navbar-custom ul {
+  background-color: #1a1a1a;
   display: inline-block;
   float: none;
 }
-                                                  /* dispositivo piccolo */
-.navbar-toggle {
-  color: white;
-  font-family: "inconsolata";
-  font-weight: normal;
-  font-size: 18px;
-
-}
-
 .navbar-custom li a {
     margin: 0 30px;
     color: white;
@@ -265,8 +257,6 @@ top:-110px;
   background-color: transparent;
   border-bottom: 1.4px solid;
   height:30px !important;
-
-
 }
 
 .navbar-custom .nav li a:hover {
@@ -277,10 +267,36 @@ top:-110px;
   height:30px !important;
 
 }
-
 .navbar-custom li a:focus{
     background-color: transparent !important;
 }
+
+/* dispositivo piccolo */
+.navbar-toggle {
+  color: white;
+  font-family: "inconsolata";
+  font-weight: normal;
+  font-size: 15px;
+  position: absolute;
+  top:-2px;
+  right:0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#navbar-spy {
+  background:#1a1a1a;
+  position:absolute;
+  top:50px;
+  left:0;
+  width:100%;
+  height: 100vh;
+  margin:0 auto;
+  overflow: hidden;
+  padding-top: 10%;
+}
+
+/* ita-eng navbar */
 .language {
   position: absolute;
   top:15px;
@@ -1046,7 +1062,7 @@ top:-110px;
   height: 100vh;
   width: 100vw;
   background: #1a1a1a;
-  position:absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index:10;

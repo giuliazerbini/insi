@@ -58,7 +58,7 @@
     <nav class="navbar-custom navbar-fixed-top nav-up" role="navigation">
         <div class="container-fluid container-navbar">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" onclick="openMenu()">
                     Menu <i class="fa fa-bars"></i>
                 </button>
             </div>
@@ -66,7 +66,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div id="navbar-spy" class="collapse navbar-collapse navbar-main-collapse">
 
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" onclick="openMenu()">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li>
                         <a href="#intro">intro</a>
