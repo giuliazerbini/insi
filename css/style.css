@@ -1079,7 +1079,18 @@ top:-110px;
     }
   }  
 @media (max-width: 768px) {
-
+  .white h1 {
+    font-size: 45px;
+    margin-top: 0px;
+  }
+  .white h6 {
+    font-size: 18px;
+    margin-top: 0%;
+    line-height: 30px;
+  }
+  .spiegazione {
+    padding: 50px;
+  }
 }
 @media (max-width: 415px) {
   .rotateDevice {
