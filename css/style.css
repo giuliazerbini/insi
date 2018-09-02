@@ -276,6 +276,21 @@ top:-110px;
 .navbar-custom li a:focus{
     background-color: transparent !important;
 }
+.language {
+  position: absolute;
+  top:15px;
+  right:0;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.language li a {
+  color: grey;
+}
+.language:hover li a:hover {
+  text-decoration: none;
+  color: lightgrey;
+  border-bottom: none;
+}
 
 
 @media (min-width: 768px) {
