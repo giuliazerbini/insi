@@ -55,6 +55,21 @@ $(document).ready(function() {
     });
 });
 
+var rotateDeviceBox = document.querySelector('.rotateDevice');
+var containerNavbar = document.querySelector('.container-navbar');
+var screenWidth = window.innerWidth;
+
+console.log(screenWidth)
+if (screenWidth < 415) {
+    console.log('minore');
+    rotateDeviceBox.setAttribute('rotate','true')
+    body.style.overflow = 'hidden';
+    containerNavbar.style.display = "none";
+} else {
+    rotateDeviceBox.setAttribute('rotate','false')
+    body.style.overflow = 'visible';
+}
+
 /*******************CONTATORE*********************/
 
 //mi calcolo la posizione dell'oggetto contatore
