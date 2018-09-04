@@ -3,20 +3,19 @@ html, body {
   width: 100vw;
   overflow-x: hidden;
 }
+div {
+  box-sizing: border-box;
+}
 
 .margin-top-sm{
 	margin-top:40px;	
 }
-
-
-
 .grey-section{
 	padding-top: 80px;
 	padding-bottom: 80px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
-
 
 /*LINKS */
 
@@ -1083,6 +1082,9 @@ top:-110px;
     }
   }  
 @media (max-width: 768px) {
+  .html, body {
+    overflow-x:hidden;
+  }
   .white h1 {
     font-size: 45px;
     margin-top: 0px;

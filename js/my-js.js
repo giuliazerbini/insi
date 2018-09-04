@@ -16,7 +16,6 @@ $(window).scroll(function(event){
     });
 
 // blocca barra versione mobile
-console.log($(window).scrollTop())
     if ($('.navbar-collapse')) {
         $(window).scroll(function(event){
         var top = $(this).scrollTop();
@@ -55,20 +54,24 @@ $(document).ready(function() {
     });
 });
 
+// rotazione device mobile size
+
 var rotateDeviceBox = document.querySelector('.rotateDevice');
 var containerNavbar = document.querySelector('.container-navbar');
 var screenWidth = window.innerWidth;
 
-console.log(screenWidth)
-if (screenWidth < 415) {
-    console.log('minore');
-    rotateDeviceBox.setAttribute('rotate','true')
-    body.style.overflow = 'hidden';
-    containerNavbar.style.display = "none";
-} else {
-    rotateDeviceBox.setAttribute('rotate','false')
-    body.style.overflow = 'visible';
-}
+window.addEventListener("orientationchange", function() {
+    if (screen.orientation.angle === 0) {
+        rotateDeviceBox.setAttribute('rotate','true')
+        body.style.overflow = 'hidden';
+        containerNavbar.style.display = "none";   
+    } else if (screen.orientation.angle === 90) {
+        rotateDeviceBox.setAttribute('rotate','false')
+        body.style.overflow = 'visible';
+        containerNavbar.style.display = "inline";
+    }
+});
+
 
 /*******************CONTATORE*********************/
 
